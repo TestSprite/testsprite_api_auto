@@ -1,0 +1,39 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="10">
+            <item index="0" class="java.lang.String" itemvalue="sasl" />
+            <item index="1" class="java.lang.String" itemvalue="thrift-sasl" />
+            <item index="2" class="java.lang.String" itemvalue="impyla" />
+            <item index="3" class="java.lang.String" itemvalue="thrift" />
+            <item index="4" class="java.lang.String" itemvalue="pytest-rerunfailures" />
+            <item index="5" class="java.lang.String" itemvalue="selenium" />
+            <item index="6" class="java.lang.String" itemvalue="webdriver-manager" />
+            <item index="7" class="java.lang.String" itemvalue="pytest-xdist" />
+            <item index="8" class="java.lang.String" itemvalue="pyautogui" />
+            <item index="9" class="java.lang.String" itemvalue="sqlparse" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="WebUI.uoffer.testcase.login_base.login_base.find_element" />
+          <option value="WebUI.uoffer.testcase.login_base.login_base.switch_to" />
+          <option value="WebUI.uoffer.testcase.login_base.login_base.save_screenshot" />
+          <option value="WebUI.uoffer.testcase.login_base.login_base.quit" />
+          <option value="uoffer_webui.common.read_csv" />
+          <option value="AppUI.uoffer.testcase.logins.logins.get_window_size" />
+          <option value="AppUI.uoffer.testcase.logins.logins.swipe" />
+          <option value="AppUI.uoffer.testcase.logins.logins.find_element_by_xpath" />
+          <option value="AppUI.uoffer.testcase.logins.logins.close_app" />
+          <option value="AppUI.uoffer.testcase.logins.logins.quit" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
