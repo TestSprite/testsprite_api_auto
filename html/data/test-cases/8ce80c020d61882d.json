@@ -1,22 +1,67 @@
 {
-  "uid" : "f4df6bcdb6c37f45",
-  "name" : "test_login_correct",
-  "fullName" : "testcase.test_home_project.Test_Home#test_login_correct",
-  "historyId" : "946d61e73a1afa584e2dabc1a338b8c0",
+  "uid" : "8ce80c020d61882d",
+  "name" : "test_User_UpdateProfile",
+  "fullName" : "testcase.test_User_UpdateProfile.Test_Profile#test_User_UpdateProfile",
+  "historyId" : "aadd076ba645ab2514ab2b3cf97a5336",
   "time" : {
-    "start" : 1764305437620,
-    "stop" : 1764305439633,
-    "duration" : 2013
+    "start" : 1764306980785,
+    "stop" : 1764306982285,
+    "duration" : 1500
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "event_loop_policy",
+    "time" : {
+      "start" : 1764306972543,
+      "stop" : 1764306972543,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
+      "start" : 1764306972544,
+      "stop" : 1764306972544,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1764306972544,
+      "stop" : 1764306972545,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1764306972543,
+      "stop" : 1764306972544,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +74,8 @@
   }, {
     "name" : "_verify_url",
     "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
+      "start" : 1764306972544,
+      "stop" : 1764306972544,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,54 +89,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1764305425279,
-      "stop" : 1764305425396,
-      "duration" : 117
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "delete_output_dir",
-    "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "event_loop_policy",
-    "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
-      "duration" : 0
+      "start" : 1764306972428,
+      "stop" : 1764306972543,
+      "duration" : 115
     },
     "status" : "passed",
     "steps" : [ ],
@@ -104,9 +104,9 @@
   }, {
     "name" : "login",
     "time" : {
-      "start" : 1764305435110,
-      "stop" : 1764305437620,
-      "duration" : 2510
+      "start" : 1764306977730,
+      "stop" : 1764306980785,
+      "duration" : 3055
     },
     "status" : "passed",
     "steps" : [ ],
@@ -120,25 +120,25 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Home模块"
+    "value" : "个人中心模块"
   }, {
     "name" : "story",
-    "value" : "Home模块项目列表"
+    "value" : "个人中心模块个人信息"
   }, {
     "name" : "parentSuite",
     "value" : "testcase"
   }, {
     "name" : "suite",
-    "value" : "test_home_project"
+    "value" : "test_User_UpdateProfile"
   }, {
     "name" : "subSuite",
-    "value" : "Test_Home"
+    "value" : "Test_Profile"
   }, {
     "name" : "host",
     "value" : "雷神之光"
   }, {
     "name" : "thread",
-    "value" : "26876-MainThread"
+    "value" : "20744-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -147,7 +147,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "testcase.test_home_project"
+    "value" : "testcase.test_User_UpdateProfile"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -162,6 +162,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f4df6bcdb6c37f45.json",
+  "source" : "8ce80c020d61882d.json",
   "parameterValues" : [ ]
 }

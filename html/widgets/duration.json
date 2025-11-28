@@ -1,70 +1,70 @@
 [ {
-  "uid" : "bc953f3bb866d770",
-  "name" : "test_home_testlist",
-  "time" : {
-    "start" : 1764305445505,
-    "stop" : 1764305446709,
-    "duration" : 1204
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "748007ad18da86b7",
-  "name" : "test_User_GetProfile",
-  "time" : {
-    "start" : 1764305429035,
-    "stop" : 1764305431546,
-    "duration" : 2511
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4df6bcdb6c37f45",
-  "name" : "test_login_correct",
-  "time" : {
-    "start" : 1764305437620,
-    "stop" : 1764305439633,
-    "duration" : 2013
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1789434475a86233",
+  "uid" : "9b6711d207640114",
   "name" : "test_mcp_project",
   "time" : {
-    "start" : 1764305449051,
-    "stop" : 1764305450095,
-    "duration" : 1044
+    "start" : 1764307000178,
+    "stop" : 1764307001654,
+    "duration" : 1476
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6d43620550db7494",
-  "name" : "test_mcp_testlist",
-  "time" : {
-    "start" : 1764305452532,
-    "stop" : 1764305453642,
-    "duration" : 1110
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "143f18e3acc1b53e",
+  "uid" : "6a13051c258cd3fc",
   "name" : "test_home_project",
   "time" : {
-    "start" : 1764305441958,
-    "stop" : 1764305443106,
-    "duration" : 1148
+    "start" : 1764306990885,
+    "stop" : 1764306992466,
+    "duration" : 1581
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7984b086143b98d3",
+  "uid" : "be5baa97d8953cbd",
+  "name" : "test_home_testlist",
+  "time" : {
+    "start" : 1764306995682,
+    "stop" : 1764306997150,
+    "duration" : 1468
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6534ba11c279b033",
+  "name" : "test_User_GetProfile",
+  "time" : {
+    "start" : 1764306976283,
+    "stop" : 1764306977727,
+    "duration" : 1444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9f76e567dd6ea5d",
+  "name" : "test_mcp_testlist",
+  "time" : {
+    "start" : 1764307004612,
+    "stop" : 1764307006021,
+    "duration" : 1409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9af4de75124db8ff",
+  "name" : "test_login_correct",
+  "time" : {
+    "start" : 1764306985381,
+    "stop" : 1764306987840,
+    "duration" : 2459
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ce80c020d61882d",
   "name" : "test_User_UpdateProfile",
   "time" : {
-    "start" : 1764305433966,
-    "stop" : 1764305435104,
-    "duration" : 1138
+    "start" : 1764306980785,
+    "stop" : 1764306982285,
+    "duration" : 1500
   },
   "status" : "passed",
   "severity" : "normal"

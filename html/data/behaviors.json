@@ -7,26 +7,26 @@
       "name" : "个人中心模块个人信息",
       "children" : [ {
         "name" : "test_User_GetProfile",
-        "uid" : "748007ad18da86b7",
+        "uid" : "6534ba11c279b033",
         "parentUid" : "cd5f52cae86bf6748bfdc3aa09a3aa23",
         "status" : "passed",
         "time" : {
-          "start" : 1764305429035,
-          "stop" : 1764305431546,
-          "duration" : 2511
+          "start" : 1764306976283,
+          "stop" : 1764306977727,
+          "duration" : 1444
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_User_UpdateProfile",
-        "uid" : "7984b086143b98d3",
+        "uid" : "8ce80c020d61882d",
         "parentUid" : "cd5f52cae86bf6748bfdc3aa09a3aa23",
         "status" : "passed",
         "time" : {
-          "start" : 1764305433966,
-          "stop" : 1764305435104,
-          "duration" : 1138
+          "start" : 1764306980785,
+          "stop" : 1764306982285,
+          "duration" : 1500
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,26 +41,26 @@
       "name" : "Home模块项目列表",
       "children" : [ {
         "name" : "test_login_correct",
-        "uid" : "f4df6bcdb6c37f45",
+        "uid" : "9af4de75124db8ff",
         "parentUid" : "9a0b85fc209f50fe8ba8159f51dd2748",
         "status" : "passed",
         "time" : {
-          "start" : 1764305437620,
-          "stop" : 1764305439633,
-          "duration" : 2013
+          "start" : 1764306985381,
+          "stop" : 1764306987840,
+          "duration" : 2459
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_home_testlist",
-        "uid" : "bc953f3bb866d770",
+        "uid" : "be5baa97d8953cbd",
         "parentUid" : "9a0b85fc209f50fe8ba8159f51dd2748",
         "status" : "passed",
         "time" : {
-          "start" : 1764305445505,
-          "stop" : 1764305446709,
-          "duration" : 1204
+          "start" : 1764306995682,
+          "stop" : 1764306997150,
+          "duration" : 1468
         },
         "flaky" : false,
         "newFailed" : false,
@@ -71,13 +71,13 @@
       "name" : "Home模块项目下的用例",
       "children" : [ {
         "name" : "test_home_project",
-        "uid" : "143f18e3acc1b53e",
+        "uid" : "6a13051c258cd3fc",
         "parentUid" : "52f1c038aa4dfb403dee9d3e47365af0",
         "status" : "passed",
         "time" : {
-          "start" : 1764305441958,
-          "stop" : 1764305443106,
-          "duration" : 1148
+          "start" : 1764306990885,
+          "stop" : 1764306992466,
+          "duration" : 1581
         },
         "flaky" : false,
         "newFailed" : false,
@@ -92,13 +92,13 @@
       "name" : "MCP Tests项目列表",
       "children" : [ {
         "name" : "test_mcp_project",
-        "uid" : "1789434475a86233",
+        "uid" : "9b6711d207640114",
         "parentUid" : "85c2086aa0f4df25802a796db2207167",
         "status" : "passed",
         "time" : {
-          "start" : 1764305449051,
-          "stop" : 1764305450095,
-          "duration" : 1044
+          "start" : 1764307000178,
+          "stop" : 1764307001654,
+          "duration" : 1476
         },
         "flaky" : false,
         "newFailed" : false,
@@ -109,13 +109,13 @@
       "name" : "MCP Tests列表",
       "children" : [ {
         "name" : "test_mcp_testlist",
-        "uid" : "6d43620550db7494",
+        "uid" : "b9f76e567dd6ea5d",
         "parentUid" : "7f4a79921825aa6fc78c744faabc1255",
         "status" : "passed",
         "time" : {
-          "start" : 1764305452532,
-          "stop" : 1764305453642,
-          "duration" : 1110
+          "start" : 1764307004612,
+          "stop" : 1764307006021,
+          "duration" : 1409
         },
         "flaky" : false,
         "newFailed" : false,

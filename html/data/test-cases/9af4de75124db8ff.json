@@ -1,21 +1,36 @@
 {
-  "uid" : "bc953f3bb866d770",
-  "name" : "test_home_testlist",
-  "fullName" : "testcase.test_home_testlist.Test_Home#test_home_testlist",
-  "historyId" : "1b61ffe30cca8e36d2a7c79f9b770a96",
+  "uid" : "9af4de75124db8ff",
+  "name" : "test_login_correct",
+  "fullName" : "testcase.test_home_project.Test_Home#test_login_correct",
+  "historyId" : "946d61e73a1afa584e2dabc1a338b8c0",
   "time" : {
-    "start" : 1764305445505,
-    "stop" : 1764305446709,
-    "duration" : 1204
+    "start" : 1764306985381,
+    "stop" : 1764306987840,
+    "duration" : 2459
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "event_loop_policy",
+    "time" : {
+      "start" : 1764306972543,
+      "stop" : 1764306972543,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
+      "start" : 1764306972544,
+      "stop" : 1764306972544,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,9 +44,39 @@
   }, {
     "name" : "login",
     "time" : {
-      "start" : 1764305443113,
-      "stop" : 1764305445504,
-      "duration" : 2391
+      "start" : 1764306982349,
+      "stop" : 1764306985380,
+      "duration" : 3031
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1764306972544,
+      "stop" : 1764306972545,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1764306972543,
+      "stop" : 1764306972544,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +89,8 @@
   }, {
     "name" : "_verify_url",
     "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
+      "start" : 1764306972544,
+      "stop" : 1764306972544,
       "duration" : 0
     },
     "status" : "passed",
@@ -59,54 +104,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1764305425279,
-      "stop" : 1764305425396,
-      "duration" : 117
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "delete_output_dir",
-    "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "event_loop_policy",
-    "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
-      "duration" : 0
+      "start" : 1764306972428,
+      "stop" : 1764306972543,
+      "duration" : 115
     },
     "status" : "passed",
     "steps" : [ ],
@@ -129,7 +129,7 @@
     "value" : "testcase"
   }, {
     "name" : "suite",
-    "value" : "test_home_testlist"
+    "value" : "test_home_project"
   }, {
     "name" : "subSuite",
     "value" : "Test_Home"
@@ -138,7 +138,7 @@
     "value" : "雷神之光"
   }, {
     "name" : "thread",
-    "value" : "26876-MainThread"
+    "value" : "20744-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -147,7 +147,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "testcase.test_home_testlist"
+    "value" : "testcase.test_home_project"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -162,6 +162,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bc953f3bb866d770.json",
+  "source" : "9af4de75124db8ff.json",
   "parameterValues" : [ ]
 }

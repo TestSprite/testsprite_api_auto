@@ -1,22 +1,67 @@
 {
-  "uid" : "143f18e3acc1b53e",
+  "uid" : "6a13051c258cd3fc",
   "name" : "test_home_project",
   "fullName" : "testcase.test_home_project_tests.Test_Home#test_home_project",
   "historyId" : "274e44ddcff62c48a740e4fd8c9d988a",
   "time" : {
-    "start" : 1764305441958,
-    "stop" : 1764305443106,
-    "duration" : 1148
+    "start" : 1764306990885,
+    "stop" : 1764306992466,
+    "duration" : 1581
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "event_loop_policy",
+    "time" : {
+      "start" : 1764306972543,
+      "stop" : 1764306972543,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "pytestconfig",
     "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
+      "start" : 1764306972544,
+      "stop" : 1764306972544,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1764306972544,
+      "stop" : 1764306972545,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1764306972543,
+      "stop" : 1764306972544,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +74,8 @@
   }, {
     "name" : "_verify_url",
     "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
+      "start" : 1764306972544,
+      "stop" : 1764306972544,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,9 +89,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1764305425279,
-      "stop" : 1764305425396,
-      "duration" : 117
+      "start" : 1764306972428,
+      "stop" : 1764306972543,
+      "duration" : 115
     },
     "status" : "passed",
     "steps" : [ ],
@@ -59,54 +104,9 @@
   }, {
     "name" : "login",
     "time" : {
-      "start" : 1764305439638,
-      "stop" : 1764305441957,
-      "duration" : 2319
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "delete_output_dir",
-    "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "event_loop_policy",
-    "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1764305425396,
-      "stop" : 1764305425396,
-      "duration" : 0
+      "start" : 1764306987844,
+      "stop" : 1764306990885,
+      "duration" : 3041
     },
     "status" : "passed",
     "steps" : [ ],
@@ -138,7 +138,7 @@
     "value" : "雷神之光"
   }, {
     "name" : "thread",
-    "value" : "26876-MainThread"
+    "value" : "20744-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -162,6 +162,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "143f18e3acc1b53e.json",
+  "source" : "6a13051c258cd3fc.json",
   "parameterValues" : [ ]
 }

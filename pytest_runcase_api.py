@@ -15,8 +15,8 @@ def test_shutil():
         print(f"目录 '{dir_path}' 创建成功")
     else:
         print(f"目录 '{dir_path}' 已存在")
-    # removing directory
-    shutil.rmtree(dir_path)
+        # removing directory
+        shutil.rmtree(dir_path)
 if __name__ == "__main__":
     #清除results下面的数据
     test_shutil()
