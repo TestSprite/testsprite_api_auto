@@ -9,7 +9,6 @@ import pytest
 def test_shutil():
     # 指定目录路径（相对路径或绝对路径均可）
     dir_path = 'results'
-
     # 创建目录（如果已存在则不报错）
     if not os.path.exists(dir_path):
         os.mkdir(dir_path)
@@ -23,6 +22,6 @@ if __name__ == "__main__":
     test_shutil()
     #运行测试用例
     # 执行 pytest，指定 allure 结果目录 "--alluredir","results"
-    pytest.main(['-vs', 'testcase', "--alluredir", "results"])
+    pytest.main(['-vs', 'testcase', "--alluredir", "./results"])
     #生成allure报告
-    os.system("allure generate results -o html --clean")
+    os.system("allure generate ./results -o ./html --clean")
