@@ -36,7 +36,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest pytest-html allure-pytest
         # 如果有特定的测试依赖
-        pip install requests pycognito
+        pip install requests pycognito json
         # 增加系统资源
         sudo apt-get update
         sudo apt-get install -y libgbm-dev libnss3
