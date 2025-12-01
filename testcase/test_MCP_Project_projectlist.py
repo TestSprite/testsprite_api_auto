@@ -9,7 +9,7 @@ import requests
 # 用例命名
 @allure.title("MCP Tests项目列表获取成功")
 class Test_MCP():
-    def test_mcp_project(self,login):
+    def test_MCP_Project_projectlist(self,login):
         url = "https://api.testsprite.com/mcp/project"
         token = login
         headers = {"Authorization": f"Bearer {token}"}

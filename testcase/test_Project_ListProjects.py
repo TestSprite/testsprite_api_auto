@@ -3,13 +3,13 @@ import requests
 
 #用例名称：Home项目获取成功
 #功能名称
-@allure.feature("Home模块")
+@allure.feature("Project")
 # 子功能名称
-@allure.story("Home模块项目列表")
+@allure.story("Project列表")
 # 用例命名
-@allure.title("Home模块项目列表获取成功")
-class Test_Home():
-    def test_login_correct(self,login):
+@allure.title("Project列表获取成功")
+class Test_Project():
+    def test_Project_ListProjects(self,login):
         url = "https://api.testsprite.com/project"
         token=login
         headers={"Authorization":f"Bearer {token}"}
