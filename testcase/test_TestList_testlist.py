@@ -1,7 +1,7 @@
 import allure
 import requests
 
-#用例名称：Home项目获取成功
+
 #功能名称
 @allure.feature("TestList")
 # 子功能名称
