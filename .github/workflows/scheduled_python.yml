@@ -1,4 +1,4 @@
-name: Nightly UI Test Suite
+name: Nightly API Test Suite
 
 on:
   schedule:
@@ -12,7 +12,7 @@ on:
     branches: [ main ]
 
 jobs:
-  testsprite_ui_auto:
+  testsprite_api_auto:
     runs-on: ubuntu-latest
     env:
       TZ: 'Asia/Shanghai'  # 设置时区
@@ -53,7 +53,7 @@ jobs:
         sudo ln -s /opt/allure/bin/allure /usr/bin/allure
         allure --version
 
-    - name: Run UI test cases
+    - name: Run API test cases
       run: |
         echo "开始运行API测试"
         python pytest_runcase_api.py
